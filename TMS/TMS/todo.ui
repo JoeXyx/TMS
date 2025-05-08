@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>todo</class>
+ <widget class="QWidget" name="todo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>643</width>
+    <height>410</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    QWidget {
+        font-family: &quot;Microsoft YaHei&quot;;
+        font-size: 14px;
+        color: #333333;
+        background-color: #f7f9fb;
+    }
+
+    QPushButton {
+        background-color: #4CAF50;
+        color: white;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    QPushButton:hover {
+        background-color: #45a049;
+    }
+
+    QLineEdit {
+        border: 1px solid #ccc;
+        padding: 4px;
+        border-radius: 4px;
+        background-color: #ffffff;
+    }
+
+    QLabel {
+        color: #2c3e50;
+    }
+
+    QTableWidget {
+        background-color: white;
+        gridline-color: #dcdcdc;
+        selection-background-color: #cceeff;
+    }
+
+    QHeaderView::section {
+        background-color: #e0e0e0;
+        padding: 4px;
+        border: 1px solid #dcdcdc;
+    }</string>
+  </property>
+  <widget class="QPushButton" name="todo_show">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>380</y>
+     <width>56</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>601</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTableWidget" name="quicktodo">
+      <attribute name="horizontalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTableWidget" name="slowtodo">
+      <attribute name="horizontalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>591</width>
+     <height>47</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="quick_doing"/>
+    </item>
+    <item row="1" column="2" colspan="2">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>不那么紧急的任务：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>需要尽快完成的任务：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLineEdit" name="slow_doing"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

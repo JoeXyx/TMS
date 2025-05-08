@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>beginPicture.png</file>
+        <file>concentrate_1.jpg</file>
+        <file>concentrate_2.jpg</file>
+        <file>concentrate_3.jpg</file>
+        <file>concentrate_4.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+release/addtaskform.o
+release/bst.o
+release/chgtaskform.o
+release/data_sql.o
+release/main.o
+release/mainwindow.o
+release/srctaskform.o
+release/moc_addtaskform.o
+release/moc_chgtaskform.o
+release/moc_data_sql.o
+release/moc_mainwindow.o
+release/moc_srctaskform.o

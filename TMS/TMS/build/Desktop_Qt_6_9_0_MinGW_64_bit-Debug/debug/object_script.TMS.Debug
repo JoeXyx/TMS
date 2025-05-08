@@ -1,0 +1,12 @@
+debug/addtaskform.o
+debug/bst.o
+debug/chgtaskform.o
+debug/data_sql.o
+debug/main.o
+debug/mainwindow.o
+debug/srctaskform.o
+debug/moc_addtaskform.o
+debug/moc_chgtaskform.o
+debug/moc_data_sql.o
+debug/moc_mainwindow.o
+debug/moc_srctaskform.o
